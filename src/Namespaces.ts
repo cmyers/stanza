@@ -370,13 +370,13 @@ export const NS_EME_0 = 'urn:xmpp:eme:0';
 export const NS_SPOILER_0 = 'urn:xmpp:spoiler:0';
 
 // XEP-0384
-export const NS_OMEMO_AXOLOTL = 'eu.siacs.conversations.axolotl';
-export const NS_OMEMO_AXOLOTL_DEVICELIST = 'eu.siacs.conversations.axolotl.devicelist';
-export const NS_OMEMO_AXOLOTL_BUNDLES = 'eu.siacs.conversations.axolotl.bundles';
+export const NS_OMEMO = 'urn:xmpp:omemo:1';
+export const NS_OMEMO_DEVICELIST = 'urn:xmpp:omemo:1.devicelist';
+export const NS_OMEMO_BUNDLES = 'urn:xmpp:omemo:1.bundles';
 
 // istanbul ignore next
-export const NS_OMEMO_AXOLOTL_BUNDLE = (deviceId: string) =>
-    `${NS_OMEMO_AXOLOTL_BUNDLES}:${deviceId}`;
+export const NS_OMEMO_BUNDLE = (deviceId: string) =>
+    `${NS_OMEMO_BUNDLES}:${deviceId}`;
 
 // XEP-0432
 export const NS_JSON_MESSAGE_0 = 'urn:xmpp:json-msg:0';

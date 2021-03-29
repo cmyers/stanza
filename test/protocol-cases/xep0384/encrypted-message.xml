@@ -1,5 +1,5 @@
 <message to="juliet@capulet.lit" from="romeo@montague.lit" id="send1">
-  <encrypted xmlns="eu.siacs.conversations.axolotl">
+  <encrypted xmlns="urn:xmpp:omemo:1">
     <payload>QkFTRTY0IEVOQ09ERUQ=</payload>
     <header sid="27183">
       <iv>QkFTRTY0IEVOQ09ERUQ=</iv>

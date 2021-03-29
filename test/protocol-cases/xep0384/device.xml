@@ -1,8 +1,8 @@
 <iq from="juliet@capulet.lit" type="set" id="announce2">
   <pubsub xmlns="http://jabber.org/protocol/pubsub">
-    <publish node="eu.siacs.conversations.axolotl.bundles:31415">
+    <publish node="urn:xmpp:omemo:1.bundles:31415">
       <item id="current">
-        <bundle xmlns="eu.siacs.conversations.axolotl">
+        <bundle xmlns="urn:xmpp:omemo:1">
           <identityKey>QkFTRTY0IEVOQ09ERUQ=</identityKey>
           <prekeys>
             <preKeyPublic preKeyId="1">QkFTRTY0IEVOQ09ERUQ=</preKeyPublic>

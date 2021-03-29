@@ -8,7 +8,7 @@
         "body": "This message is encrypted with OMEMO.",
         "encryptionMethod": {
             "name": "OMEMO",
-            "id": "eu.siacs.conversations.axolotl"
+            "id": "urn:xmpp:omemo:1"
         }
     },
     {
@@ -22,7 +22,7 @@
         ],
         "encryptionMethod": {
             "name": "OMEMO",
-            "id": "eu.siacs.conversations.axolotl"
+            "id": "urn:xmpp:omemo:1"
         }
     }
 ]

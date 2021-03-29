@@ -5244,7 +5244,7 @@
     },
     "3A+gSNljZYzNTSmFfS/fgoZ0wGY=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -7495,7 +7495,7 @@
     },
     "6HD5RuYeFS+VgD+v58CCGj+aD0s=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -9625,7 +9625,7 @@
     },
     "8GYRjrN5FUpboCvqV3QesR5BviQ=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -9706,7 +9706,7 @@
     },
     "8HIZnaS9B1tpD9va9hUi3QhzMp8=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -9797,7 +9797,7 @@
     },
     "8LEQ1crennfed3Gk0qBQUv3se6Y=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -10583,7 +10583,7 @@
     },
     "9R/Jarra/zM+T7kTnrhRSncmcCQ=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -12959,7 +12959,7 @@
     },
     "BAFtELDjlHYMHzOicKE4IBpKPug=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -16880,7 +16880,7 @@
     },
     "EN1hAPGoosP5wV4BeL07akI6ABY=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -17220,7 +17220,7 @@
     },
     "EpRRu7wuyjX1/byTvFVI1+y9XUo=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -20404,7 +20404,7 @@
     },
     "HClfeDTithIcJ0D2V1CRuTDTsAg=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -21348,7 +21348,7 @@
     },
     "ISj/bKGb7ln8UqQ0vGUhjKYCvhM=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -22945,7 +22945,7 @@
     },
     "K4ovNOa8bumWHZOjbY+iBZL8IW4=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -24630,7 +24630,7 @@
     },
     "LraD7zMBnSv/G/fuvIxEKJVCrE0=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -25387,7 +25387,7 @@
     },
     "MW6VdauOktiBheRolP7Xvoyg2mI=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -35317,7 +35317,7 @@
     },
     "Uw3ikOr0vhiy317qiuCp0XRMLl4=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -36424,7 +36424,7 @@
     },
     "VsBPW2XUmSMn71LarvfAnIVjwV4=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -38254,7 +38254,7 @@
     },
     "XqEGCJ8adbOm7QdKPiFghlQRSbU=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -39446,7 +39446,7 @@
     },
     "Z0xQ0erljL+bCXtrp5QryGJPNIA=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -40374,7 +40374,7 @@
     },
     "ZsykPuXC5cKkaW4JwGZWOBUTibk=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -41396,7 +41396,7 @@
     },
     "aj/Sei91AjXMT/W9TIGhe3sYt8U=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -44068,7 +44068,7 @@
     },
     "d18eOgUM7uzeMCKhHAUQ2ALg69U=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -44610,7 +44610,7 @@
     },
     "dwgaBhieIVS4lNSQO/b8M21+OHw=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -48914,7 +48914,7 @@
     },
     "hxkEaXR3WSehtHoqrPaV2RlDLR8=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -51040,7 +51040,7 @@
     },
     "kb7e44sMKI6Zj8hgbhVdmF6jX5Q=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/disco#info",
             "http://jabber.org/protocol/disco#items"
@@ -53283,7 +53283,7 @@
     },
     "mmVGWvrZsKqBU6SKn4P8BLHrSpE=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -54121,7 +54121,7 @@
     },
     "o2MzuQT1Lip84SjvxVJsqGkl1KM=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/activity",
             "http://jabber.org/protocol/activity+notify",
             "http://jabber.org/protocol/bytestreams",
@@ -54338,7 +54338,7 @@
     },
     "oM+2O71TAUB19yknITSJJPlAeCQ=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/activity",
             "http://jabber.org/protocol/activity+notify",
             "http://jabber.org/protocol/bytestreams",
@@ -54711,7 +54711,7 @@
     },
     "otQDD9M/qFBZR2Orr7Pc/Xi6SGs=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -60372,7 +60372,7 @@
     },
     "uemLoZobYcJA3NRVDvfHnc87Ht4=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -60576,7 +60576,7 @@
     },
     "uoLwx+QtW5pB+tMNJl7dHLsaCug=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/activity",
             "http://jabber.org/protocol/activity+notify",
             "http://jabber.org/protocol/bytestreams",
@@ -62451,7 +62451,7 @@
     },
     "wCYHKXmiUFjvVwitTaLQLksgPGQ=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/caps",
             "http://jabber.org/protocol/chatstates",
             "http://jabber.org/protocol/disco#info",
@@ -65688,7 +65688,7 @@
     },
     "yypfg5czKbS5hqQJL8yWK2JpxC0=": {
         "features": [
-            "eu.siacs.conversations.axolotl.devicelist+notify",
+            "urn:xmpp:omemo:1.devicelist+notify",
             "http://jabber.org/protocol/activity",
             "http://jabber.org/protocol/activity+notify",
             "http://jabber.org/protocol/bytestreams",

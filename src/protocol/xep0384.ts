@@ -17,9 +17,9 @@ import {
 } from '../jxt';
 
 import {
-    NS_OMEMO_AXOLOTL,
-    NS_OMEMO_AXOLOTL_BUNDLES,
-    NS_OMEMO_AXOLOTL_DEVICELIST
+    NS_OMEMO,
+    NS_OMEMO_BUNDLES,
+    NS_OMEMO_DEVICELIST
 } from '../Namespaces';
 
 declare module './' {
@@ -49,7 +49,7 @@ export interface OMEMOPreKey {
 }
 
 export interface OMEMODevice {
-    itemType?: typeof NS_OMEMO_AXOLOTL_BUNDLES;
+    itemType?: typeof NS_OMEMO_BUNDLES;
     identityKey: Buffer;
     preKeys: OMEMOPreKey[];
     signedPreKeyPublic: {
@@ -60,7 +60,7 @@ export interface OMEMODevice {
 }
 
 export interface OMEMODeviceList {
-    itemType?: typeof NS_OMEMO_AXOLOTL_DEVICELIST;
+    itemType?: typeof NS_OMEMO_DEVICELIST;
     devices: number[];
 }
 
@@ -71,7 +71,7 @@ const Protocol: DefinitionOptions[] = [
         fields: {
             payload: childTextBuffer(null, 'payload', 'base64')
         },
-        namespace: NS_OMEMO_AXOLOTL,
+        namespace: NS_OMEMO,
         path: 'omemo'
     },
     {
@@ -80,7 +80,7 @@ const Protocol: DefinitionOptions[] = [
             iv: childTextBuffer(null, 'iv', 'base64'),
             sid: integerAttribute('sid')
         },
-        namespace: NS_OMEMO_AXOLOTL,
+        namespace: NS_OMEMO,
         path: 'omemo.header'
     },
     {
@@ -91,7 +91,7 @@ const Protocol: DefinitionOptions[] = [
             rid: integerAttribute('rid'),
             value: textBuffer('base64')
         },
-        namespace: NS_OMEMO_AXOLOTL
+        namespace: NS_OMEMO
     },
     {
         aliases: pubsubItemContentAliases(),
@@ -99,8 +99,8 @@ const Protocol: DefinitionOptions[] = [
         fields: {
             devices: multipleChildIntegerAttribute(null, 'device', 'id')
         },
-        namespace: NS_OMEMO_AXOLOTL,
-        type: NS_OMEMO_AXOLOTL_DEVICELIST,
+        namespace: NS_OMEMO,
+        type: NS_OMEMO_DEVICELIST,
         typeField: 'itemType'
     },
     {
@@ -109,7 +109,7 @@ const Protocol: DefinitionOptions[] = [
             id: integerAttribute('preKeyId'),
             value: textBuffer('base64')
         },
-        namespace: NS_OMEMO_AXOLOTL,
+        namespace: NS_OMEMO,
         path: 'omemoPreKey'
     },
     {
@@ -118,7 +118,7 @@ const Protocol: DefinitionOptions[] = [
             id: integerAttribute('signedPreKeyId'),
             value: textBuffer('base64')
         },
-        namespace: NS_OMEMO_AXOLOTL,
+        namespace: NS_OMEMO,
         path: 'omemoDevice.signedPreKeyPublic'
     },
     {
@@ -129,9 +129,9 @@ const Protocol: DefinitionOptions[] = [
             preKeys: splicePath(null, 'prekeys', 'omemoPreKey', true),
             signedPreKeySignature: childTextBuffer(null, 'signedPreKeySignature', 'base64')
         },
-        namespace: NS_OMEMO_AXOLOTL,
+        namespace: NS_OMEMO,
         path: 'omemoDevice',
-        type: NS_OMEMO_AXOLOTL_BUNDLES,
+        type: NS_OMEMO_BUNDLES,
         typeField: 'itemType'
     }
 ];

@@ -7,11 +7,11 @@
         "type": "set",
         "pubsub": {
             "publish": {
-                "node": "eu.siacs.conversations.axolotl.devicelist",
+                "node": "urn:xmpp:omemo:1.devicelist",
                 "item": {
                     "id": "current",
                     "content": {
-                        "itemType": "eu.siacs.conversations.axolotl.devicelist",
+                        "itemType": "urn:xmpp:omemo:1.devicelist",
                         "devices": [12345, 4223, 31415]
                     }
                 }
